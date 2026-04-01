@@ -24,7 +24,7 @@ LLMが大きな役割を担っている。当システムではgeminiだが、sa
 
 ##  仮想環境構築を想定した運用手順  
 リポジトリのクローン  
-git clone: [https://github.com/hnyb200-tech/auto_job_posting.git](https://github.com/あなたのユーザー名/リポジトリ名.git)
+git clone: [https://github.com/hnyb200-tech/auto_job_posting.git]
 
 cd auto_job_posting
 
