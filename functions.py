@@ -96,7 +96,6 @@ def build_manuscript_prompt(interview_log, company_info, template_instructions, 
 # モデルが生成した結果を最終的にここに持ってくる→フロントへ表示
 # 引数cはクレンジングを意味するために設定
 def unify_text(c):
-    """表記ゆれ・全角半角の自動修正"""
     if not c: 
        return c
     c = unicodedata.normalize("NFKC", c)
